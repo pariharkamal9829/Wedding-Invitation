@@ -359,14 +359,21 @@ a {
   a.arrow__btn {
     display: none;
   }
+
   .wrapper {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .wrapper section .item {
     max-width: 100%;
+    width: 100%;
+    margin-bottom: 10px; /* Optional: Add some spacing between items */
   }
 }
+
+
 
 .tile__img {
   max-width: 45%;
